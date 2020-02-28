@@ -1,0 +1,14 @@
+enable : true
+title : Contact Us
+formTitle : Contact Form
+btnText : Submit Now
+contactList : 
+  - icon : ti-mobile
+    listItem1 : (202)290-3109
+    
+  - icon : ti-email
+    listItem1 : contact@lecapricedc.com
+    
+  - icon : ti-map-alt
+    listItem1 : 3460 14th St NW
+    listItem2 : Washington, DC 20010

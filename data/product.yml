@@ -1,0 +1,17 @@
+title : Our Offerings
+content : We have one of the largest and most eclectic menus in the area.
+filterList : 
+  - filterTitle : Sweet
+    dataFilter : sweet
+
+  - filterTitle : Savory
+    dataFilter : savory
+    
+  - filterTitle : Ecomerce Advice
+    dataFilter : Ecomerce-Advice
+    
+  - filterTitle : Dynamic Development
+    dataFilter : Dynamic-Development
+    
+  - filterTitle : Financing
+    dataFilter : Financing

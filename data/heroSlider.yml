@@ -1,0 +1,25 @@
+enable : true
+sliderItem:
+  - subHeading : We have
+    heading : The Best Croissants in DC!
+    bgImage : images/hero/croissants.jpg
+    btn : 
+      enable : false
+      btnText: More details
+      btnURL : '#'
+      
+  - subHeading : Get your
+    heading : Artisanal Breads
+    bgImage : images/banner/banner-bread.JPG
+    btn :
+      enable : false
+      btnText: More details
+      btnURL : '#'
+      
+  - subHeading : Amazing selection of
+    heading : Macarons
+    bgImage : images/banner/macaron.jpg
+    btn : 
+      enable : false
+      btnText: More details
+      btnURL : '#'

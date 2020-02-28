@@ -1,0 +1,45 @@
+{{ "<!-- blog single -->" | safeHTML }}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <div class="border rounded bg-white">
+                    <!--<img class="img-fluid w-100 rounded-top" src="{{ .Params.image | absURL }}" alt="blog-image">-->
+                    {{ if isset .Params "image" }} <img class="img-fluid w-100 rounded-top" src="{{ .Params.image | absURL }}" alt="blog-image">{{ end }}
+                    <div class="p-4">
+                        {{ if isset .Params "image" }}
+                        <h3>{{ .Title }}</h3>
+                        {{ end }}
+                        <div class="post-content">
+                            <div class="text-center">
+                            {{ .Content }}
+                            </div>
+                            {{ if isset .Params "salad" }}
+                            <div class="col">
+                                {{ "<!-- accordion -->" | safeHTML }}
+                                <div id="accordion" class="mb-md-50">
+                                    {{ range $index, $element := .Site.Data.menu.salad }}
+                                    <div class="card border-0 mb-4">
+                                        <div class="card-header bg-gray border p-0">
+                                            <a class="card-link h5 d-block tex-dark mb-0 py-10 px-4" data-toggle="collapse" href="#{{ .ID }}">
+                                                <i class="{{if eq $index 0}}ti-minus{{else}}ti-plus{{end}} text-primary mr-2"></i> {{ .title }}
+                                            </a>
+                                        </div>
+                                        <div id="{{ .ID }}" class="collapse {{if eq $index 0}}show{{ end }}" data-parent="#accordion">
+                                            <div class="card-body font-secondary text-color pl-0 pb-0">
+                                                {{ .description }}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {{ end }}
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- /blog-single -->" | safeHTML }}

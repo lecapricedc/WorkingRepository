@@ -1,0 +1,38 @@
+{{ if .Site.Data.about.ceo.enable }}
+{{ "<!-- ceo section -->" | safeHTML }}
+<section>
+    <div class="container">
+        <div class="row rounded bg-secondary">
+            {{ "<!-- ceo image -->" | safeHTML }}
+            <div class="col-lg-5 rounded-left ceo-image" style="background-image: url('{{ .Site.Data.about.ceo.bgImage | absURL }}');"></div>
+            <div class="col-lg-7">
+                {{ "<!-- ceo content -->" | safeHTML }}
+                <div class="p-5">
+
+                   {{ with .Site.Data.about.ceo.title }} <h2 class="section-title section-title-border-half-white text-white">{{ . | safeHTML }}</h2> {{ end }}
+                   {{ with .Site.Data.about.ceo.content }} <p class="text-white">{{ . }}</p> {{ end }}
+                    <div class="table-responsive text-white">
+                        <table class="table table-hover mb-0">
+                            <tbody>
+                            <tr>
+                                <th scope="row">Mon-Fri</th>
+                                <td>7am-7pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Saturday</th>
+                                <td>8am-7pm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Sun & Holidays</th>
+                                <td>8am-6pm</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- /ceo section -->" | safeHTML }}
+{{ end }}

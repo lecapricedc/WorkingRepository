@@ -1,0 +1,36 @@
+{{ "<!-- hours -->" | safeHTML }}
+<section class="section" id="hours">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				{{ with .Site.Data.hours.title }} <h2 class="section-title section-title-border"> {{ . }} </h2> {{ end }}
+			</div>
+			<div class="col-lg-5 col-md-5 align-self-center">
+				<img class="img-fluid w-100" src="{{ .Site.Data.hours.image | absURL }}" alt="macaron-mix">
+			</div>
+			<div class="col-lg-7 col-md-7 align-self-center">
+				<div class="table-responsive hours-front">
+					<table class="table table-hover mb-0">
+						<tbody>
+						<tr>
+							<th scope="row">Mon-Fri</th>
+							<td>7am-7pm</td>
+						</tr>
+						<tr>
+							<th scope="row">Saturday</th>
+							<td>8am-7pm</td>
+						</tr>
+						<tr>
+							<th scope="row">Sun & Holidays</th>
+							<td>8am-6pm</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<br />
+<br />
+{{ "<!-- /hours -->" | safeHTML }}

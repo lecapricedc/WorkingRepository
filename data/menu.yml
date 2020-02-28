@@ -1,0 +1,32 @@
+sandwich :
+  - ID : collapseOne
+    title : Apple & Brie
+    description : Apple, Brie, Toasted on Caprice Bread
+    
+  - ID : collapseTwo
+    title : A.C.T. (vegan)
+    description : Avocado, Cucumber, Tomatoes, Hummus, Caprice Bread
+    
+  - ID : collapseThree
+    title : Portobello Sandwich
+    description : ingredients
+
+  - ID: collapseFour
+    title: Clubd Sandwich
+    description: ingredients
+
+salad :
+  - ID : collapseOne
+    title : Caprese Salad
+    description : Fresh Slices of Mozzarella & Tomatoes, Olive Oil, Caprice Bread
+
+  - ID : collapseTwo
+    title : Prosciutto Salad
+    description : Avocado, Cucumber, Tomatoes, Hummus, Caprice Bread
+
+  - ID : collapseThree
+    title : Quinoa Salad
+    description : ingredients
+  - ID: collapseFour
+    title: Caesar salad
+    description: Romain Lettuce, Parmesan cheese, Caprice Croutons

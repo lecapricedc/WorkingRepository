@@ -1,0 +1,41 @@
+philosophy :
+  enable : true
+  titleSM : Our Location
+  title : Join Us!
+  content : We are just a few blocks north of the Columbia Heights Metro Station. Our address is 3460 14th St NW, Washington, DC 20010
+  btn :
+    enable : false
+    btnText : Explore More
+    btnURL : "#"
+
+ceo :
+  enable : true
+  bgImage : images/gallery/creampuff.jpg
+  title : Our Business Hours
+  content : We are only closed for Christmas (Dec 25th). For other holidays, we operate on our Sunday schedule. Feel free to call us and check.
+  signature : images/about/ceo-signature.png
+  name : John Doe
+  designation : CEO
+
+funfacts : 
+  enable : true
+  bgImage : images/background/cta.jpg
+  counter : 
+    - title : Opened in
+      icon : ti-calendar
+      count : 2012
+      
+    - title : All-day Breakfast Options
+      icon : ti-face-smile
+      count : 16
+      
+    - title : Tea Flavors
+      icon : ti-thumb-up
+      count : 26
+      
+    - title : Macaron Flavors
+      icon : ti-cup
+      count : 19
+
+support :
+  image : images/divider.png

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }}</title>
+
+
+    {{ "<!-- mobile responsive meta -->" | safeHTML }}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    {{ .Hugo.Generator }}
+
+    {{ "<!-- Bootstrap -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/bootstrap/bootstrap.min.css" | absURL }} ">
+    {{ "<!-- magnific popup -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/magnific-popup/magnific-popup.css" | absURL }} ">
+    {{ "<!-- Slick Carousel -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/slick/slick.css" | absURL }} ">
+    <link rel="stylesheet" href="{{ "plugins/slick/slick-theme.css" | absURL }} ">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    {{ "<!-- animate -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/animate/animate.css" | absURL }} ">
+    {{ "<!-- Aos -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ "plugins/aos/aos.css" | absURL }} ">
+    <link href="{{ "css/style.css" | absURL }} " rel="stylesheet">
+
+    {{ "<!--Favicon-->" | safeHTML }}
+    <link rel="shortcut icon" href="{{ "favicons/favicon.ico" | absURL }} " type="image/x-icon">
+    <link rel="icon" href="{{ "favicons/favicon.ico" | absURL }} " type="image/x-icon">
+
+</head>
+<body>

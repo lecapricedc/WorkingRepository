@@ -1,0 +1,193 @@
+baseURL = "https://lecapricedc.com/"
+languageCode = "en-us"
+title = "Le Caprice DC Café Bakery"
+#theme = ["biztrox-hugo", "hugo-shortcode-gallery"]
+summaryLength = "20"
+
+# navigation
+[menu]
+   # 
+   # [[menu.nav]]
+   # name = "Caviar"
+   # URL = "/caviar"
+   # weight = 9
+
+    [[menu.nav]]
+    name = "About"
+    URL = "/about"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "/contact"
+    weight = 8
+
+
+[params]
+logo = "images/capricelogo.png"
+mail = "contact@lecapricedc.com"
+mobile = "(202) 290-3109"
+searchIcon = "ti-search"
+home = "Home"
+# google map
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCVeXt9-SnAJoo_2iLzeTSSfhqpatE7Hgg"
+mapLatitude = "51.5223477"
+mapLongitude = "-0.1622023"
+mapMarker = "images/marker.png"
+
+    # Quote Button
+    [params.quoteBtn]
+    enable = true
+    btnText = "catering"
+    btnURL = "/menu"
+
+    [params.quoteBtn2]
+    enable = true
+    btnText = "order online"
+    btnURL = "/caviar"
+    # about
+    [params.about]
+    enable = true
+    bgImage = "images/coffee-chocolat.jpg"
+    title = "Who We Are"
+    description = "We are a family-owned small business in the heart of Washington D.C., in Columbia Heights."
+    [params.about.btn]
+    enable = false
+    btnText = "Explore More"
+    btnURL = "#"
+
+        [[params.about.listLeft]]
+        listItem = "Business Services"
+
+        [[params.about.listLeft]]
+        listItem = "Audit & Assurance"
+
+        [[params.about.listLeft]]
+        listItem = "IT Control Solutions"
+
+        [[params.about.listRight]]
+        listItem = "Business Services"
+
+        [[params.about.listRight]]
+        listItem = "Audit & Assurance"
+
+        [[params.about.listRight]]
+        listItem = "IT Control Solutions"
+
+    [params.caviar]
+    enable = true
+    heading = "try caviar"
+    title = "testing"
+
+    # promo video
+    [params.promoVideo]
+    enable = true
+    heading = "We Are Alawys <br> Comited"
+    videoURL = "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
+    title = "Lorem ipsum dolor <br> sit amet con."
+
+    # cta
+    [params.cta]
+    enable = true
+    bgImage = "images/bagel-breakfast.png"
+    title = "We offer an amazing catering options!"
+    btnText = "see our menu"
+    btnURL = "/menu"
+
+    # clients Logo Slider
+    [params.logoSlider]
+    enable = true
+        [[params.logoSlider.sliderItem]]
+        image = "images/client-logo/client-logo-1.png"
+        URL = "#"
+
+        [[params.logoSlider.sliderItem]]
+        image = "images/client-logo/client-logo-2.png"
+        URL = "#"
+
+        [[params.logoSlider.sliderItem]]
+        image = "images/client-logo/client-logo-3.png"
+        URL = "#"
+
+        [[params.logoSlider.sliderItem]]
+        image = "images/client-logo/client-logo-4.png"
+        URL = "#"
+
+        [[params.logoSlider.sliderItem]]
+        image = "images/client-logo/client-logo-5.png"
+        URL = "#"
+
+        [[params.logoSlider.sliderItem]]
+        image = "images/client-logo/client-logo-1.png"
+        URL = "#"
+
+        [[params.logoSlider.sliderItem]]
+        image = "images/client-logo/client-logo-2.png"
+        URL = "#"
+
+        [[params.logoSlider.sliderItem]]
+        image = "images/client-logo/client-logo-3.png"
+        URL = "#"
+
+        [[params.logoSlider.sliderItem]]
+        image = "images/client-logo/client-logo-4.png"
+        URL = "#"
+
+        [[params.logoSlider.sliderItem]]
+        image = "images/client-logo/client-logo-5.png"
+        URL = "#"
+
+    # footer
+    [params.footer]
+    logo = "images/caprice-footer.png"
+
+    # service links
+    services = "Business Hours"
+
+    # location
+    map = "Location"
+
+
+    # quickLinks
+    quickLink = "Quick Link"
+
+    # subscribe
+    subscribe = "Subscribe Us"
+    subscribeContent = "Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod."
+
+    # copyright
+    copyright = "Le Caprice DC</span> &copy; 2018 All Right Reserved"
+
+        # social icon
+        [[params.footer.socialIcon]]
+        icon = "ti-facebook"
+        URL = "facebook.com/lecapricedc"
+
+        # service links
+        [[params.footer.service]]
+        serviceItem = "M-F: 7am-7pm"
+
+        [[params.footer.service]]
+        serviceItem = "Sat: 8am-7pm"
+
+        [[params.footer.service]]
+        serviceItem = "Sun: 8am-6pm"
+
+        # bottom links
+
+    # share blog post
+    [[params.sharePost]]
+    icon = "ti-facebook"
+    URL = "#"
+
+    [[params.sharePost]]
+    icon = "ti-twitter-alt"
+    URL = "#"
+
+    [[params.sharePost]]
+    icon = "ti-linkedin"
+    URL = "#"
+
+    [[params.sharePost]]
+    icon = "ti-google"
+    URL = "#"

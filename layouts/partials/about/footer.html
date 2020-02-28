@@ -1,0 +1,52 @@
+{{ "<!-- footer -->" | safeHTML }}
+<footer class="bg-secondary">
+    {{ "<!-- copyright -->" | safeHTML }}
+    <div class="pt-4 pb-3 position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-5">
+                    <p class="text-white text-center text-md-left">
+                       {{ with .Site.Params.footer.copyright }}{{ . | safeHTML }}
+                    </p> {{ end }}
+                </div>
+                <div class="col-lg-6 col-md-7">
+                    <ul class="list-inline text-center text-md-right">
+                        {{ range .Site.Params.footer.links }}
+                        <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
+                            <a class="font-secondary text-white" href="{{ .URL | absURL }}">{{ .name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {{ "<!-- back to top -->" | safeHTML }}
+        <button class="back-to-top">
+            <i class="ti-angle-up"></i>
+        </button>
+    </div>
+</footer>
+{{ "<!-- /footer -->" | safeHTML }}
+
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ "plugins/jQuery/jquery.min.js" | absURL }}"></script>
+{{ "<!-- Bootstrap JS -->" | safeHTML }}
+<script src="{{ "plugins/bootstrap/bootstrap.min.js" | absURL }}"></script>
+{{ "<!-- magnific popup -->" | safeHTML }}
+<script src="{{ "plugins/magnific-popup/jquery.magnific.popup.min.js" | absURL }}"></script>
+{{ "<!-- slick slider -->" | safeHTML }}
+<script src="{{ "plugins/slick/slick.min.js" | absURL }}"></script>
+{{ "<!-- mixitup filter -->" | safeHTML }}
+<script src="{{ "plugins/mixitup/mixitup.min.js" | absURL }}"></script>
+{{ "<!-- Google Map -->" | safeHTML }}
+<script src="{{ .Site.Params.gmapAPI | absURL }}"></script>
+<script src="{{ "plugins/google-map/gmap.js" | absURL }}"></script>
+{{ "<!-- Syo Timer -->" | safeHTML }}
+<script src="{{ "plugins/syotimer/jquery.syotimer.js" | absURL }}"></script>
+{{ "<!-- aos -->" | safeHTML }}
+<script src="{{ "plugins/aos/aos.js" | absURL }}"></script>
+{{ "<!-- Main Script -->" | safeHTML }}
+<script src="{{ "js/script.js" | absURL }}"></script>
+</body>
+
+</html>

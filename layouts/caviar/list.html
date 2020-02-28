@@ -1,0 +1,44 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+{{ partial "caviar/trycaviar"}}
+{{ if .Site.Params.caviar.enable }}
+<section class="about section-sm overlay" style="background-image: url('{{ .Site.Params.about.bgImage | absURL }}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 ml-auto">
+                <div class="rounded p-sm-5 px-3 py-5 bg-secondary">
+                  {{ with .Site.Params.caviar.title }} <h3 class="">{{ . }}</h3> {{ end }}
+                   {{ with .Site.Params.caviar.heading }} <p class="text-white mb-40">{{ . }}</p> {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ "<!-- contact -->" | safeHTML }}
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 offset-lg-1 col-md-5">
+               {{ with .Site.Data.contact.title }} <h2 class="section-title">{{ . }}</h2> {{ end }}
+                <ul class="pl-0">
+                    {{ range .Site.Data.contact.contactList }}
+                    {{ "<!-- contact items -->" | safeHTML }}
+                    <li class="d-flex mb-30">
+                        <i class="round-icon mr-3 {{ .icon }}"></i>
+                        <div class="align-self-center font-primary">
+                            <p>{{ .listItem1 }}</p>
+                            <p>{{ .listItem2 }}</p>
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ "<!-- form -->" | safeHTML }}
+        </div>
+    </div>
+</section>
+{{ "<!-- /contact -->" | safeHTML }}
+{{ end }}

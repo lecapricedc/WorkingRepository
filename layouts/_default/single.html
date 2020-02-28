@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+{{ partial "pageTitle.html" . }}
+
+{{ if (isset .Params "sand") }}
+{{ partial "details/sandmenu.html" . }}
+{{ else if (isset .Params "salad") }}
+{{ partial "details/saladmenu.html" . }}
+{{ else }}
+{{ partial "blogSingle.html" . }}
+{{ end }}
+
+{{ partial "tah/itemfooter.html" . }}

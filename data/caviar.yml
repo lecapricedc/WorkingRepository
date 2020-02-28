@@ -1,0 +1,8 @@
+ceo :
+  enable : true
+  bgImage : images/gallery/creampuff.jpg
+  title : Our Business Hours
+  content : We are only closed for Christmas (Dec 25th). For other holidays, we operate on our Sunday schedule. Feel free to call us and check.
+  signature : images/about/ceo-signature.png
+  name : John Doe
+  designation : CEO
