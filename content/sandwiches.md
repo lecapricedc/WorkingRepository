@@ -1,12 +1,13 @@
 ---
-title: "Sandwiches"
-ftitle: "Sandwiches"
-date: 2018-09-29T11:54:02+06:00
+title: Sandwiches
+ftitle: Sandwiches
+date: 2018-09-29T11:54:02.000+06:00
 bgImage: images/gallery/act.jpg
 ftImage: images/products/act.jpg
-type : caprice
+type: caprice
 accordion: sandwich
-sand: true
+sand: false
+
 ---
 {{< load-photoswipe >}}
 {{< gallery >}}
@@ -18,4 +19,6 @@ sand: true
 {{< figure link="/images/gallery/house-bread.jpg" caption="Caprice Bread" >}}
 {{< /gallery >}}
 
-          
+Our sandwiches are made our daily-baked bread and include vegetarian options, classic sandwiches and a few tasty, original takes. 
+
+[Order Takeout Now](# "Order")
