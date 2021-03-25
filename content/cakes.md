@@ -8,10 +8,13 @@ bgImage: images/background/cake-bk.jpg
 type: caprice
 
 ---
+## Custom Cakes
 
 We create custom cakes - call or email us to discuss your design and taste preferences! Let us make your next special occasion, wedding, or birthday memorable with one of our custom cakes.
 
 ![](/uploads/custom-cake-blue.jpg)
+
+## Whole Cakes
 
 We also sell whole cakes in rotating flavors - Nutella, Red Velvet, Tiramisu with Marscapone, Tres Leches, Strawberry Shortcake, Vanilla Buttercream, Vanilla and Stawberry Jam, Chocolate Mousse Cake, Strawberry Mousse Cake, Mango Mousse Cake, Black Forest Cake, Carrot Cake, Marble and RaspberryJam with Buttercream and Chocolate Glaze, and Mocha Chocolate Cake with Coffee Buttercream and Chocolate Glaze. 
 
