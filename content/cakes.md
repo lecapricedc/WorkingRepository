@@ -14,13 +14,13 @@ We create custom cakes - call or email us to discuss your design and taste prefe
 
 Call or Email Us Today
 
-![](/uploads/custom-cake-blue.jpg)
+![Custom Cake](/uploads/custom-cake-blue.jpg)
 
 ## Whole Cakes
 
-We also sell whole cakes in rotating flavors - Nutella, Red Velvet, Tiramisu with Marscapone, Tres Leches, Strawberry Shortcake, Vanilla Buttercream, Vanilla and Stawberry Jam, Chocolate Mousse Cake, Strawberry Mousse Cake, Mango Mousse Cake, Black Forest Cake, Carrot Cake, Marble and RaspberryJam with Buttercream and Chocolate Glaze, and Mocha Chocolate Cake with Coffee Buttercream and Chocolate Glaze. 
+We also sell whole cakes in rotating flavors - Nutella, Red Velvet, Tiramisu with Marscapone, Tres Leches, Strawberry Shortcake, Vanilla Buttercream, Vanilla and Stawberry Jam, Chocolate Mousse Cake, Strawberry Mousse Cake, Mango Mousse Cake, Black Forest Cake, Carrot Cake, Marble and RaspberryJam with Buttercream and Chocolate Glaze, and Mocha Chocolate Cake with Coffee Buttercream and Chocolate Glaze.
 
-![](/uploads/blackforest-cake.jpeg)
+![Black Forest Cake](/uploads/blackforest-cake.jpeg)
 
 We can make our cakes into different sizes to accommodate different numbers of people, including  6, 9, 12, 14 inch cakes.
 
@@ -30,6 +30,6 @@ Order Cakes Online
 
 ## Slices of Cake in Our Cafe
 
-Stop by the cafe to have a slice of our rotating selection of cakes. We make our cakes in a variety of flavors and all pair well for that afternoon pick-me-up or break. 
+Stop by the cafe to have a slice of our rotating selection of cakes. We make our cakes in a variety of flavors and all pair well for that afternoon pick-me-up or break.
 
 Order Online
