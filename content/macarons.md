@@ -10,6 +10,8 @@ type: caprice
 ---
 ## Our French Macarons
 
+![French Macarons](/uploads/macarons.png)
+
 Our macarons are made freshly and in multiple, flavours. Stop in today to treat yourself to a delicate French delicacy.
 
 Our Flavors:
