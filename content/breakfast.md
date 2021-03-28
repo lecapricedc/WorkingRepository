@@ -8,7 +8,7 @@ bgImage: images/background/bagel-bk.jpg
 type: caprice
 
 ---
-## Breakfast: Freshly Scrambled Eggs, Muffins, Croissants, and More
+## All-Day Breakfast: Freshly Scrambled Eggs, Muffins, Croissants, and More
 
 Start your day with a warm croissant or muffin, or dive into one of our delicious breakfast platters.
 
