@@ -8,6 +8,8 @@ bgImage: images/background/bagel-bk.jpg
 type: caprice
 
 ---
+## Breakfast: Freshly Scrambled Eggs, Muffins, Croissants, and More
+
 Start your day with a warm croissant or muffin, or dive into one of our delicious breakfast platters.
 
 We make our fresh croissants in Almond, Hazelnut, Pistachio, and the Classic Butter & Pain au Chocolat. For a sweet indulgence, try one of our cinnamon rolls, raisin escargots, or soft scones.
