@@ -1,16 +1,20 @@
 ---
-title: "Le Caprice DC Bread"
-ftitle: "Artisan Bread"
-date: 2018-09-29T11:54:02+06:00
+title: Le Caprice DC Bread
+ftitle: Artisan Bread
+date: 2018-09-29T11:54:02.000+06:00
 image: images/products/pain-paysan.jpg
 ftImage: images/front/bread.jpg
 bgImage: images/background/three-bk.jpg
-type : caprice
+type: caprice
+
 ---
+## Freshly Made, Artisanal Breads
 
-We offer a wide range of breads.
+We make our bread freshly for our sandwiches and breakfast platters and want to share our hearth classics with you.
 
-Please remember that we run out baguettes quite frequently! Feel free to call ahead and reserve one.
+We run out of our baguettes frequently - call ahead and reserve one to make sure we can accomodate. 
+
+Below is a list of our breads available by the loaf. 
 
 1. Baguettes
 2. Walnut Raison
@@ -19,5 +23,3 @@ Please remember that we run out baguettes quite frequently! Feel free to call ah
 5. Whole Wheat
 6. Brioche
 7. Rye Sourdough
-
-
