@@ -165,14 +165,10 @@ mapMarker = "images/marker.png"
 
         # service links
         [[params.footer.service]]
-        serviceItem = "M-F: 7am-7pm"
+        serviceItem = "Monday-Saturday: 8am-4pm"
 
         [[params.footer.service]]
-        serviceItem = "Sat: 8am-7pm"
-
-        [[params.footer.service]]
-        serviceItem = "Sun: 8am-6pm"
-
+        serviceItem = "Sunday & Holidays: 8am-3pm"
         # bottom links
 
     # share blog post
