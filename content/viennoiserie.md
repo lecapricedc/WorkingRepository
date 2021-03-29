@@ -12,6 +12,8 @@ type: caprice
 
 Inspired by French tradition, but made in Washington's Columbia Heights neighborhood, our bakery focuses on making delectable pastries for a happy morning or an afternoon pick-me-up.
 
+![](/uploads/pastries.jpeg)
+
 ## The Best Croissants in DC
 
 We're confident that after you've tried our freshly made croissants (we think they're the best in DC), you'll go nowhere else.
@@ -21,3 +23,5 @@ Our all-butter croissants come also come in Almond, Hazelnut, and Pistachio flav
 We carry a rotating selection of scones, cinnamon rolls, raisin escargots and other delicious pastries.
 
 We can happily provide these items for catering orders - just email us at contact@lecapricedc.com or call 202-290-3109.
+
+Order Takeout Now
