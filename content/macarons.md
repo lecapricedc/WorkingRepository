@@ -59,3 +59,5 @@ Our Flavors:
 · Vanilla
 
 · Lavender
+
+Order Takeout
