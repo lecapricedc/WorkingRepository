@@ -16,4 +16,6 @@ Start your day with a warm croissant or muffin, or dive into one of our deliciou
 
 We make our fresh croissants in Almond, Hazelnut, Pistachio, and the Classic Butter & Pain au Chocolat. For a sweet indulgence, try one of our cinnamon rolls, raisin escargots, or soft scones.
 
+![](/uploads/almond-croissant.png)
+
 <a href="#">Click Here to Order Carryout</a>
