@@ -16,4 +16,6 @@ Le Caprice focuses on making seasonal holiday cookies, delicious butter cookies,
 
 Stop in today for a delicious cookie box and coffee!
 
+![](/uploads/cookies.png)
+
 Order Takeout
