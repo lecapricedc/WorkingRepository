@@ -19,6 +19,8 @@ sand: false
 {{< figure link="/images/gallery/house-bread.jpg" caption="Caprice Bread" >}}
 {{< /gallery >}}
 
-Our sandwiches are made our daily-baked bread and include vegetarian options, classic sandwiches and a few tasty, original takes. 
+## Classic, Vegetarian, & Original Le Caprice Original Sandwiches
+
+Our sandwiches are made our daily-baked bread and include vegetarian options, classic sandwiches and a few tasty, original takes.
 
 [Order Takeout Now](# "Order")
