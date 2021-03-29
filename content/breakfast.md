@@ -12,6 +12,8 @@ type: caprice
 
 Start your day with a warm croissant or muffin, or dive into one of our delicious breakfast platters.
 
+![](/uploads/bacon-and-onion.jpg)
+
 We make our fresh croissants in Almond, Hazelnut, Pistachio, and the Classic Butter & Pain au Chocolat. For a sweet indulgence, try one of our cinnamon rolls, raisin escargots, or soft scones.
 
 <a href="#">Click Here to Order Carryout</a>
