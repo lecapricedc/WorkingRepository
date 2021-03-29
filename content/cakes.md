@@ -32,4 +32,4 @@ Order Cakes Online
 
 Stop by the cafe to have a slice of our rotating selection of cakes. We make our cakes in a variety of flavors and all pair well for that afternoon pick-me-up or break.
 
-Order Online
+Order Takeout Now
