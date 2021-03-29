@@ -1,5 +1,5 @@
 ---
-title: Best of French Macarons
+title: French Macarons
 ftitle: Macarons
 date: 2018-09-29T11:54:02.000+06:00
 image: images/products/macarons.jpg
